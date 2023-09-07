@@ -1,0 +1,13 @@
+import Image from 'next/image'
+import About from '../../pages/about'
+import NavigationSideBar from '../../pages/nav'
+
+export default function Home() {
+	return (
+		<div>
+			Tests
+			<About />
+			<NavigationSideBar children={"no children yet"}/>
+		</div>
+	)
+}
